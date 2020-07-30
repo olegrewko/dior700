@@ -215,23 +215,23 @@ li.menu-text {
 
 }
 .top-bar {
-    background-color:  #263846;
+    background-color: rgba(0, 129, 138, 0.2);
     font-weight: 400;
 }
 .top-bar-right {
     /* background: #263846;*/ 
-    background-color:  #263846;
+    background-color: rgba(0, 129, 138, 0.2);
    }
 
   .top-bar-left {
-    background-color:  #263846; 
+    background-color: rgba(0, 129, 138, 0.2); 
   /* background: #263846;*/
   }
 
  h1, h2, h3, h4, h5 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     font-weight: 400;
-    color: #0C3E5F;
+    color: #1a1b1b;
    
   }
 
