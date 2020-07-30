@@ -40,7 +40,7 @@ p {
     padding-right: 1 rem;
 }
 .h1000 {
-    height: 800px;
+    height: 1000px;
 
 }
 
@@ -248,7 +248,7 @@ li.menu-text {
   } 
    dt {
     font-weight: 300; 
-    color: #0C3E5F;
+    color: black;
   }
   .grey {
    
