@@ -16,6 +16,7 @@ body {
     overflow-x: hidden;
  
 }
+
 .yellow {
     color:#F9CE00 ;
 }
@@ -38,7 +39,7 @@ body {
 p { 
     padding-right: 1 rem;
 }
-.height500 {
+.h500 {
     height: 500px;
 
 }
