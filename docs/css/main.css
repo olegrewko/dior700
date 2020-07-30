@@ -39,8 +39,8 @@ body {
 p { 
     padding-right: 1 rem;
 }
-.h500 {
-    height: 500px;
+.h1000 {
+    height: 800px;
 
 }
 
@@ -220,16 +220,16 @@ li.menu-text {
 
 }
 .top-bar {
-    background-color: rgba(0, 129, 138, 0.2);
+    background-color: rgba(0, 129, 138, 0.1);
     font-weight: 400;
 }
 .top-bar-right {
-    /* background: #263846;*/ 
-    background-color: rgba(0, 129, 138, 0.2);
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: rgba(0, 129, 138, 0.1);
    }
 
   .top-bar-left {
-    background-color: rgba(0, 129, 138, 0.2); 
+    background-color: rgba(0, 129, 138, 0.1); 
   /* background: #263846;*/
   }
 
