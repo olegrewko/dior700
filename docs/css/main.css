@@ -18,7 +18,7 @@ body {
 }
 
 .yellow {
-    color:#F9CE00 ;
+    color:#d4d58b ;
 }
 .df {
     display: flex;
@@ -401,8 +401,8 @@ p {
 }
 .social {
     
-  /*  background:#F9CE00;*/
-   background: transparent;
+ 
+  background:#263846;
 
     padding-top: 0.2rem;
     padding-bottom: 0.1rem;
