@@ -258,7 +258,7 @@ li.menu-text {
   
   p {
   
-    font-weight: 500;  
+    font-weight: 400;  
   } 
    dt {
     font-weight: 300; 
@@ -405,9 +405,7 @@ li.menu-text {
 .greybackground {
     background: #EAEAEA;
 }
-p {
-    font-size: 1rem;
-}
+
 .socialmap {
     padding-top: 0.4rem;
     padding-bottom: 0.0rem;
