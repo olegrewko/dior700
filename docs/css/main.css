@@ -53,9 +53,9 @@ pr {
     
     position: absolute;
     font-family: 'Montserrat';
-    color: rgb(66, 65, 65);
+    color: lightgrey;
     font-weight: 300;
-    font-size: 10rem;
+    font-size: 6rem;
 
 }
 .h400 {
