@@ -215,7 +215,9 @@ li.menu-text {
 a {
     color: black ;  
 }
-
+.black {
+    color: black ; 
+}
 .whitesmoke {
   
   color: whitesmoke;
