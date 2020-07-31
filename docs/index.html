@@ -2259,8 +2259,43 @@
 <section class="socialmap">
      
     <div class=" text-center">     
-            <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d19540.28510574726!2d37.398505162096086!3d54.736993598820064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z0J_Qk9CiINCX0LDQvtC60YHQutC40Lk!5e1!3m2!1sru!2sru!4v1544893715342" width="100%" height="600" frameborder="0"></iframe>
+            <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d19540.28510574726!2d37.398505162096086!3d54.736993598820064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z0J_Qk9CiINCX0LDQvtC60YHQutC40Lk!5e1!3m2!1sru!2sru!4v1544893715342" width="100%" height="400" frameborder="0"></iframe> -->
+            <script src="//api-maps.yandex.ru/2.0/?load=package.standard,package.geoObjects&lang=ru-RU" type="text/javascript"></script>
+            <div id="map" style="width:100%; height:100%;"></div>
+            <script>ymaps.ready(init);
             
+            function init() {
+              var myMap = new ymaps.Map("map", {
+                  center: [55.751979, 37.617499],
+                  zoom: 15
+                }),
+            
+                // Создаем метку с помощью вспомогательного класса.
+                myPlacemark1 = new ymaps.Placemark([55.751979, 37.617499], {
+                  // Свойства.
+                  // Содержимое хинта.
+                  hintContent: 'Butique'
+                }, {
+                  // Опции
+                  // Своё изображение иконки метки.
+                  iconImageHref: 'https://static.tildacdn.com/tild3061-3235-4537-b066-616662373363/Group_783.svg',
+                  // Размеры метки.
+                  iconImageSize: [130, 130],
+                  // Смещение левого верхнего угла иконки относительно
+                  // её "ножки" (точки привязки).
+                  iconImageOffset: [-65, -110]
+                })
+              
+            
+              // Добавляем все метки на карту.
+              myMap.geoObjects
+                .add(myPlacemark1)
+            
+            }
+            </script>
+            <style>.ymaps-layers-pane {
+                -webkit-filter: grayscale(100%);
+            }</style>    
         </div>
         
 </section>        
