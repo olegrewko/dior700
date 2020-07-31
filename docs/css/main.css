@@ -102,7 +102,7 @@ a:hover {
 .roll:hover .rollover { display: block; }
 /* hr { border-top: 0px solid #e4e7e9; margin-bottom: 25px; margin-top: 25px; } */
 .footer{ 
- 
+    background-color: #191D27;
    padding-top: 20px;
     color: #636e74;
      font-weight: 300;
@@ -121,7 +121,7 @@ a:hover {
   {  font-size: 0.85rem; color:#fff; display: inline-block; font-weight: 300;  padding-bottom: 0px; line-height: 0.5; }
 
 
-.tiny-footer-footer { background-color: #191D27;}
+
 .tiny-footer { font-size: 10px; padding-top: 15px; padding-bottom: 5px; font-weight: 600; background-color: transparent;  color: #888d90; line-height: 1.5; }
 
 
