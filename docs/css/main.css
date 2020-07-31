@@ -25,9 +25,9 @@ body {
     align-items: flex-end;
 }
 
-.blue {
+/* .blue {
     background-color:rgba(0,129,138,0.1) ;
-}
+} */
 .headertext {
 	
 	color: rgb(66, 65, 65);
@@ -404,7 +404,7 @@ p {
 .social {
     
  
-  background:#263846;
+  /* background:#263846; */
 
     padding-top: 0.2rem;
     padding-bottom: 0.1rem;
