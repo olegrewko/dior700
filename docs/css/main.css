@@ -54,14 +54,11 @@ p {
     
     /* font-family: 'Montserrat'; */
     color: grey;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 6rem;
 
 }
-.h400 {
-    height: 400px;
 
-}
 
 img {
     width: 100%;
