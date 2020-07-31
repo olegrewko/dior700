@@ -85,7 +85,7 @@ a:hover {
 .footer{ 
   /* background: #263846;*/
   /* background:#263846; */
-  background-color:rgba(0,129,138,0.1) ;
+  /* background-color:rgba(0,129,138,0.1) ; */
    padding-top: 30px;
     color: #636e74;
      font-weight: 300;
@@ -399,7 +399,7 @@ p {
     padding-top: 0.4rem;
     padding-bottom: 0.0rem;
     /* background-color: #263846;  */
-    background-color:rgba(0,129,138,0.3) ;
+    /* background-color:rgba(0,129,138,0.3) ; */
 }
 .social {
     
