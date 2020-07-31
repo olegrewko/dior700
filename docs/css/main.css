@@ -102,9 +102,7 @@ a:hover {
 .roll:hover .rollover { display: block; }
 /* hr { border-top: 0px solid #e4e7e9; margin-bottom: 25px; margin-top: 25px; } */
 .footer{ 
-  /* background: #263846;*/
-  /* background:#263846; */
-  /* background-color:rgba(0,129,138,0.1) ; */
+ 
    padding-top: 20px;
     color: #636e74;
      font-weight: 300;
@@ -213,7 +211,7 @@ li.menu-text {
     
 }
 a {
-    color: black ;  
+    color: #1468a0;  
 }
 .black {
     color: black ; 
@@ -353,14 +351,7 @@ a {
       margin-bottom: 0;
   }
 
-.anim01 {
-    animation-name: move;
-    animation-duration: 3s;
-    -webkit-animation: move  3s; 
-   -o-animation: move  3s; 
-   animation: move  3s; 
 
-}
 @keyframes move {
     from {
         margin-right: 0;
@@ -402,20 +393,7 @@ a {
     background: #F4F3F4;
 }
 
-.pink {
-    color: #78C1B0;
-  
-   
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-}
- 
-.v {
-    color: #E6F4F3;
-}
-.greybackground {
-    background: #EAEAEA;
-}
+
 
 .socialmap {
     padding-top: 0.4rem;
