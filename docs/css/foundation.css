@@ -7258,6 +7258,7 @@ a.thumbnail image {
 }
 
 .top-bar {
+  background-color:rgba(0,129,138,0.1) ;
   /* background-color: #263846; */
   display: -webkit-box;
   display: -webkit-flex;
@@ -7283,7 +7284,7 @@ a.thumbnail image {
 .top-bar ul {
   /* background-color: #e6e6e6;*/
   /* background-color: #263846; */
-  background-color:rgba(0,129,138,0.3) ;
+  background-color:rgba(0,129,138,0.1) ;
 }
 .top-bar input {
   max-width: 200px;
