@@ -44,6 +44,7 @@ p {
     padding-right: 1 rem;
 }
 .grey6rem {
+    position: absolute;
     font-family: 'Montserrat';
     color: rgb(66, 65, 65);
     font-weight: 700;
