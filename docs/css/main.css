@@ -46,7 +46,7 @@ p {
    /* line-height: 1;*/
 	
 }
-pr { 
+.pr { 
     padding-right: 1 rem;
 }
 .grey6rem {
@@ -54,7 +54,7 @@ pr {
     
     /* font-family: 'Montserrat'; */
     color: grey;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 6rem;
 
 }
