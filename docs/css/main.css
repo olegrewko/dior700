@@ -245,15 +245,18 @@ a {
 .top-bar {
     background-color: transparent;
     font-weight: 400;
+    font-size: 1rem;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 .top-bar-right {
+    font-size: 1rem;
     font-family: 'Roboto Condensed', sans-serif;
     background-color: transparent;
    }
 
   .top-bar-left {
-    background-color: transparent; 
-  /* background: #263846;*/
+    background-color:rgba(0,129,138,0.2) ; 
+  
   }
 
  h1, h2, h3, h4, h5 {
