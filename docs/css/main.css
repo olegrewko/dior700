@@ -13,19 +13,36 @@ div {
 
 body {
 
-
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    font-size: 0.7rem;
+    font-family: 'Nanum Myeongjo', serif;
+    /* font-weight: 300;
+    font-weight: 400; */
+    /* font-weight: 400;
+    font-size: 0.7rem; */
     overflow-x: hidden;
+    background-color: whitesmoke;
 
 }
 
 p, li {
-    font-family: 'Montserrat', sans-serif;
+    
+    /* font-family: 'Montserrat', sans-serif; */
+    /* font-family: 'Roboto Mono'; */
+    font-family: 'Raleway', sans-serif;
     font-weight: 600;
     font-size: 0.7rem;
 
+}
+a {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 0.7rem;
+    color: grey;
+}
+
+a:hover {
+    color: rgb(77, 171, 214);
+    text-decoration: none;
+    transition: 0.5s;
 }
 .card1 {
     align-items: flex-end;
@@ -134,16 +151,16 @@ img {
     width: 100%;
     margin-top: 0;
 }
-a {
-    
-    color: #1468a0;
+/* a {
+    font-weight: 800;
+    color: rgb(39, 39, 44);
 }
 
 a:hover {
-    color: lightgray;
+    color: rgb(35, 35, 114);
     text-decoration: none;
     transition: 0.5s;
-}
+} */
 
 .lightgray {
     color: lightgray;
@@ -159,7 +176,7 @@ a:hover {
 }
 
 .grey {
-    font-family: 'Montserrat', sans-serif;
+    
 
     color: grey;
 
@@ -197,7 +214,7 @@ a:hover {
 }
 
 .black {
-    background-color: #191D27;
+    background-color: black;
     
 }
 
@@ -215,7 +232,7 @@ a:hover {
     font-size: 0.85rem;
     color: #fff;
     display: inline-block;
-    font-weight: 300;
+    /* font-weight: 300; */
     padding-bottom: 0px;
     line-height: 0.5;
 }
@@ -223,11 +240,11 @@ a:hover {
 
 
 .tiny-footer {
-    font-size: 10px;
+    /* font-size: 10px; */
     padding-top: 15px;
-    padding-bottom: 5px;
-    font-weight: 600;
-    background-color: #191D27;
+    padding-bottom: 2px;
+    /* font-weight: 600; */
+   
     color: #888d90;
     line-height: 1.5;
 }
@@ -355,9 +372,9 @@ h2,
 h3,
 h4,
 h5 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    color: #1a1b1b;
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 400;
+    color: black;
 
 }
 
